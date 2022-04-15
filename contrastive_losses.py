@@ -13,7 +13,7 @@ def contrastive_class_to_class_learned_memory(model, features, class_labels, num
         memory: memory bank [List]
 
     Returns:
-        returns the contrastive loss between features vectors from [features] and from [memory] in a class-wise fashion.
+        returns the contrastive loss between features vectors from [features] and from [memory] in a class-wise fashion
     """
 
     loss = 0
